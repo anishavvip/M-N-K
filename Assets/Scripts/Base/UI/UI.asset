@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fdcf9957db0684ba0c5144ef813816, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  sizeBtn: {fileID: 5078412943584122601, guid: fb5a6e9e23ae57a4da3bd2098cf7181e, type: 3}
+  playerBtn: {fileID: 4095183550179203425, guid: e38f1bae422d2e74caba050b0144f591, type: 3}
+  playerIcon: {fileID: 2323247612670430403, guid: 54ba0b7ebea77e2408b9037b2a1e32e0, type: 3}

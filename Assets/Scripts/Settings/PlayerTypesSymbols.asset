@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c32d32673b954bb48750a62a7c6d4, type: 3}
+  m_Name: PlayerTypesSymbols
+  m_EditorClassIdentifier: 
+  Models:
+  - sprite: {fileID: 21300000, guid: c18b6f5a50363d540858f212625b1350, type: 3}
+    color: {r: 1, g: 0, b: 0, a: 1}
+  - sprite: {fileID: 21300000, guid: c62432a682547b541a2dd935247e3b82, type: 3}
+    color: {r: 0, g: 0, b: 1, a: 1}
+  - sprite: {fileID: 21300000, guid: 69871ebcd4cc03a479c715a4d38cbd3f, type: 3}
+    color: {r: 0, g: 1, b: 0.13333344, a: 1}
+  - sprite: {fileID: 21300000, guid: 6d1716302b9d12e4ca12a1ebd7f5195c, type: 3}
+    color: {r: 1, g: 0.81666666, b: 0, a: 1}
+  - sprite: {fileID: 21300000, guid: 86949ff29b46b7449a2a35d0afe2358d, type: 3}
+    color: {r: 0.6833334, g: 0, b: 1, a: 1}
