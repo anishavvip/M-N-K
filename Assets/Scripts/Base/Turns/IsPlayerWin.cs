@@ -86,7 +86,6 @@ public class IsPlayerWin
             int count = 0;
             foreach (var item in CommandHandler.movesDict)
                 count += item.Count;
-            Debug.Log(count);
             if (count == (n * n))
             {
                 wonPlayer = -1;
