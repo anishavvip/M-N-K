@@ -18,7 +18,6 @@ public class CommandHandler : MonoBehaviour
             for (int i = movesDict.Count; i < UI_Manager.playerCount; i++)
                 movesDict.Add(new List<string>());
 
-
         moves.Add(move);
         move.Execute();
 
@@ -39,14 +38,14 @@ public class CommandHandler : MonoBehaviour
             GameManager.win = win > 0;
             if (GameManager.win)
             {
-                GameManager.playerWinIndex = wonPlayer;
-                gameStatusText.text = $"Player {wonPlayer} won!";
+                if (wonPlayer < 0)
+                    gameStatusText.text = "Draw!";
+                else
+                {
+                    GameManager.playerWinIndex = wonPlayer;
+                    gameStatusText.text = $"Player {wonPlayer} won!";
+                }
             }
-        }
-        else
-        {
-            if (GameManager.win)
-                gameStatusText.text = "Draw!";
         }
     }
 
